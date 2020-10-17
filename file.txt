@@ -1,0 +1,6 @@
+A - First Letter of the alphabet
+B - Second Letter of the alphabet
+Hello - Geeting
+Sorrow - Pain
+Happy - Glad
+
