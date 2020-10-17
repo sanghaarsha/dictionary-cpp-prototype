@@ -32,15 +32,16 @@ int main ()
   
 	if(firstWord == key){
   		cout << line << endl;
-  		notFoundMsg = " ";
+  		notFoundMsg = "found";
   		break;
-	}else{
-		 notFoundMsg = firstMsg+" '"+key+"' "+lastMsg;
 	}
   }
   
-  // if word is found this will be an empty string
-  cout<<notFoundMsg<<endl;
+  // if word is not found
+  if(notFoundMsg != "found"){
+  	notFoundMsg = firstMsg+"'"+key+"'"+lastMsg;
+ 	cout<<notFoundMsg<<endl;
+  } 
 
   return 0;
 }
